@@ -1,0 +1,76 @@
+
+print("Type !R6")
+
+------
+game.Players.LocalPlayer.Chatted:Connect(function(message)
+    if message == "!R6" then
+        wait(1)
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+        local args = {
+            [1] = "Meowwww.. -R6 じう じうつ／じゅじゅつ",
+            [2] = "All"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+        wait(0.4)
+        
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wspo23e/FE-R15-to-R6/main/r15-r6"))()
+    end
+end)
+
+
+
+wait(1)
+
+
+print("This is an FE R6/R15 script, type !R6 to turn to a r6 rig type, in games where theres an avatar editor, this will make you fat so the R6 looks good. tYPE !R15 to turn into a r15 rig!")
+
+
+
+
+
+wait()
+
+game.Players.LocalPlayer.Chatted:Connect(function(message)
+    if message == "!R15" then
+
+        wait(1)
+
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wspo23e/FE-R6-TO-R6-R666/main/R6%20TO%20R15"))()
+
+    end
+end)
+
+
+
+
+
+wait(1)
+
+game.Players.LocalPlayer.Chatted:Connect(function(message)
+    if message == "!load bacon reanim" then
+
+    end
+end)
+
+
+
+
+print("!load bacon reanim")
